@@ -3,8 +3,8 @@ class CreateVenues < ActiveRecord::Migration
     create_table :venues do |t|
       t.string :name
       t.string :kana
-      t.float :lat
-      t.float :lng
+      t.float :lat, limit: 53
+      t.float :lng, limit: 53
       t.integer :category
       t.boolean :has_coupon
 
