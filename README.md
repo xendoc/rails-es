@@ -22,3 +22,12 @@ mysqlのダンプデータを入れてください。
 ```
 > Venue.import
 ```
+
+
+## 検索
+
+コンソールから
+
+```
+> Venue.search({query: 'xxxxx', lat: 35.663281, lng: 139.7024063})
+```
