@@ -11,3 +11,14 @@ DL: http://www.elasticsearch.org/downloads/1-0-0-rc1/
 % ES_PATH/bin/plugin -i elasticsearch/elasticsearch-analysis-kuromoji/2.0.0.RC1
 ```
 
+
+## Venueデータを登録
+
+mysqlのダンプデータを入れてください。
+
+
+## ElasticSearchのインデックスを作成
+
+```
+> Venue.import
+```
